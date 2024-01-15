@@ -1,0 +1,13 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.type {
+  color: var(--main-color);
+  font-size: 12px;
+}
+.card {
+  width: 95%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,9 @@
+.btn {
+  background-color: var(--main-color) !important;
+  border-radius: 0 !important;
+  color: white;
+}
+.btn:hover {
+  color: white;
+  background-color: var(--main-color-hover) !important;
+}

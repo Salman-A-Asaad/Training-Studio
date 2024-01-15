@@ -1,0 +1,11 @@
+.studio {
+  color: var(--main-color);
+}
+.nav-link:hover {
+  color: var(--main-color) !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus {
+  border-color: var(--main-color);
+  box-shadow: 0 0 0 0.2rem var(--main-color);
+}

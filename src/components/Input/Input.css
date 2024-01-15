@@ -1,0 +1,14 @@
+.input-group {
+  width: 80%;
+  margin: auto;
+}
+input:focus {
+  border-color: var(--main-color) !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.25rem #f9735b63 !important;
+}
+@media screen and (max-width: 768px) {
+  .input-group {
+    width: 100%;
+  }
+}
