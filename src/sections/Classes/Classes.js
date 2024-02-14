@@ -27,17 +27,17 @@ const Classes = () => {
   ];
   const handelChangeTrainingNumber = (number) => {
     Array.from(trainingContainer.current.children).forEach((e, i) => {
-      if (i != trainingContainer.current.children.length - 1)
+      if (i !== trainingContainer.current.children.length - 1)
         e.children[1].classList.remove("active");
     });
-    if (number != trainingContainer.current.children.length - 1)
+    if (number !== trainingContainer.current.children.length - 1)
       trainingContainer.current.children[number].children[1].classList.add(
         "active"
       );
     setTrainingNumber(number);
   };
   return (
-    <div id="classes" className="container py-5">
+    <div id="classes" className="container py-5 mt-5">
       <PrimaryTitle mainTitle={["our", "classes"]} />
       <div className="row mt-4">
         <div ref={trainingContainer} className="col-lg-4">

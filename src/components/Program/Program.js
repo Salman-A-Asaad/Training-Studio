@@ -11,7 +11,11 @@ const Program = (props) => {
           Lorem ipsum is placeholder text commonly used in the graphic, print,
           and publishing .
         </p>
-        <a className="discover-more text-uppercase" href="#">
+        <a
+          rel="noopener noreferrer"
+          className="discover-more text-uppercase"
+          href="/#"
+        >
           discover more
         </a>
       </div>

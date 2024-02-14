@@ -1,11 +1,11 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const LinksNavbar = (props) => {
   return (
     <li className="nav-item">
-      <a className="nav-link text-uppercase" href={`#${props.linkName}`}>
+      <Link className="nav-link text-uppercase" to={props.linkName}>
         {props.linkName}
-      </a>
+      </Link>
     </li>
   );
 };

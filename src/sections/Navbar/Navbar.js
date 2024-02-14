@@ -1,12 +1,17 @@
 import "./Navbar.css";
 import React from "react";
 import { LinksNavbar } from "../../components/index";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const linksName = ["about", "classes", "schedule", "contact"];
   return (
     <nav className="navbar navbar-expand-lg bg-white fixed-top">
       <div className="container">
-        <a className="navbar-brand fw-bold fs-4 main-title" href="#">
+        <a
+          rel="noopener noreferrer"
+          className="navbar-brand fw-bold fs-4 main-title"
+          href="/#"
+        >
           TRAINING <span className="studio">STUDIO</span>
         </a>
         <button
@@ -23,9 +28,9 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link px-lg-3" aria-current="page" href="#home">
+              <Link className="nav-link px-lg-3" aria-current="page" to={"/"}>
                 HOME
-              </a>
+              </Link>
             </li>
             {linksName.map((link, index) => {
               return <LinksNavbar key={index} linkName={link} />;

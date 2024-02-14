@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="container py-3 text-center fs-6">
       Copyright © {year}{" "}
-      <a className="text-decoration-none " href="#">
+      <a rel="noopener noreferrer" className="text-decoration-none " href="/#">
         <span className="studio">Training Studio</span>
       </a>
     </div>

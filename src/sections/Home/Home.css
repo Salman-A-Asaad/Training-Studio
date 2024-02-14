@@ -1,6 +1,6 @@
 .home {
   margin-top: 61px;
-  height: calc(100vh - 61px);
+  height: calc(92vh - 61px);
   position: relative;
 }
 .home::before {

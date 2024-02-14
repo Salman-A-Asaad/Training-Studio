@@ -12,7 +12,7 @@ const About = () => {
   ];
   return (
     <>
-      <div id="about" className="container py-5">
+      <div id="about" className="container py-5 mt-5">
         <PrimaryTitle mainTitle={["choose", "program"]} />
         <div className="row my-3">
           {titles.map((title, index) => {

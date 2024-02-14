@@ -73,7 +73,7 @@ const Schedule = () => {
   };
   return (
     <div id="schedule" className="schedule">
-      <div className="container py-5">
+      <div className="container py-5 mt-5">
         <PrimaryTitleWhite mainTitle={["classes", "schedule"]} />
         <div className="mt-3">
           <ul ref={ulRef}>

@@ -12,7 +12,7 @@ const TrainingClassTitle = (props) => {
       <img className="me-3" src={image} alt="" />
       <h2
         className={`text-capitalize fs-6 m-0 fw-bold ${
-          props.id == 0 ? "active" : ""
+          props.id === 0 ? "active" : ""
         }`}
       >
         {props.title}
